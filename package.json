@@ -6,7 +6,6 @@
     "name": "xiaohuoni",
     "email": "chenxiaocongoni@icloud.com"
   },
-  "repository": "alitajs/dnd",
   "peerDependencies": {
     "umi": "2.x"
   },
@@ -14,6 +13,10 @@
   "scripts": {
     "build": "umi-tools build",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuoni/umi-plugin-dnd.git"
   },
   "devDependencies": {
     "np": "^3.0.4",
