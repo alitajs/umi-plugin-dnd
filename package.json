@@ -1,0 +1,31 @@
+{
+  "name": "umi-plugin-dnd",
+  "version": "0.0.1",
+  "description": "react-dnd",
+  "authors": {
+    "name": "xiaohuoni",
+    "email": "chenxiaocongoni@icloud.com"
+  },
+  "repository": "alitajs/dnd",
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "umi-tools build",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+  },
+  "devDependencies": {
+    "np": "^3.0.4",
+    "umi-tools": "*"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react-dnd": "^7.4.3",
+    "react-dnd-html5-backend": "^7.4.0"
+  }
+}
