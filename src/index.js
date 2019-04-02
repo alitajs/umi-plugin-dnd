@@ -1,6 +1,9 @@
 // ref:
 // - https://umijs.org/plugin/develop.html
 
+import { join } from 'path';
+import { readFileSync } from 'fs';
+
 export default function (api, options) {
 
   function generateContext() {
