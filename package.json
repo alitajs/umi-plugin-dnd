@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-dnd",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "react-dnd",
   "authors": {
     "name": "xiaohuoni",
@@ -29,7 +29,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "react-dnd": "^7.4.3",
-    "react-dnd-html5-backend": "^7.4.0"
+    "@alitajs/dnd": "^1.0.0"
   }
 }

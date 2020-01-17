@@ -1,8 +1,7 @@
 import React from "react";
-import HTML5Backend from "react-dnd-html5-backend";
-import { DragDropContext } from "react-dnd";
+import { DndProvider } from "@alitajs/dnd";
 const DropContext = ({ children }) => {
-  return <div>{children}</div>;
+  return <DndProvider>{children}</DndProvider>;
 };
 
-export default DragDropContext(HTML5Backend)(DropContext);
+export default DropContext;
