@@ -17,4 +17,12 @@ export default function (api, options) {
   });
 
   api.addRuntimePlugin(join(__dirname, './runtime'));
+
+  api.addUmiExports([
+    {
+      exportAll: true,
+      source: '@alitajs/dnd',
+    },
+  ]);
+
 }
